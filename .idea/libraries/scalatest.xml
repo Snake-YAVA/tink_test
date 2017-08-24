@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="scalatest">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/scalactic_2.10-3.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/scalatest_2.10-3.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
