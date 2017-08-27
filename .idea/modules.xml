@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TinkTest.iml" filepath="$PROJECT_DIR$/TinkTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tinktest.iml" filepath="$PROJECT_DIR$/.idea/modules/tinktest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tinktest-build.iml" filepath="$PROJECT_DIR$/.idea/modules/tinktest-build.iml" />
     </modules>
   </component>
 </project>

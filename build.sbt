@@ -17,11 +17,12 @@ lazy val root = (project in file("."))
     libraryDependencies ++= Seq(
       "org.apache.httpcomponents" % "httpclient" % "4.5.3",
       "org.scalactic" %% "scalactic" % "3.0.4",
-      "org.scalatest" %% "scalatest" % "3.0.4" % "test"
+      "org.scalatest" %% "scalatest" % "3.0.4" % "test",
+      "org.pegdown" % "pegdown" % "1.4.2" % "test"
     )
   )
 
 testOptions in Test := Seq(Tests.Filter(itFilter))
+testOptions in Test += Tests.Argument("-h", "target/html-test-report", "-o")
 logLevel := Level.Info
-
 parallelExecution in Global := false
