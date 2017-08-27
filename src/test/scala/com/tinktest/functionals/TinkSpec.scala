@@ -1,3 +1,5 @@
+package com.tink.test.functionals
+
 import com.tink.test.functionals.HttpRequest
 import scala.util.parsing.json._
 import org.apache.http.impl.client.BasicResponseHandler
